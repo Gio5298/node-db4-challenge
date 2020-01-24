@@ -1,0 +1,26 @@
+{
+  "name": "db4-challenge",
+  "version": "1.0.0",
+  "description": "afternoon pj",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gio5298/node-db4-challenge.git"
+  },
+  "author": "Lambda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gio5298/node-db4-challenge/issues"
+  },
+  "homepage": "https://github.com/Gio5298/node-db4-challenge#readme",
+  "dependencies": {
+    "helmet": "^3.21.2",
+    "knex": "^0.20.8",
+    "knex-cleaner": "^1.3.0",
+    "nodemon": "^2.0.2",
+    "sqlite3": "^4.1.1"
+  }
+}
